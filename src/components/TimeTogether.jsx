@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const TimeTogether = () => {
     // START DATE: REPLACE THIS WITH YOUR ACTUAL ANNIVERSARY DATE
     // Format: YYYY-MM-DDTHH:mm:ss
-    const startDate = "2023-02-14T00:00:00";
+    const startDate = "2022-08-26T00:00:00";
 
     const [timeLeft, setTimeLeft] = useState(getTimeDifference(startDate));
 
