@@ -4,12 +4,14 @@ import Gallery from './components/Gallery';
 import ReasonsList from './components/ReasonsList';
 import LoveLetter from './components/LoveLetter';
 import MusicPlayer from './components/MusicPlayer';
+import TimeTogether from './components/TimeTogether';
 
 function App() {
   return (
     <div className="min-h-screen bg-soft-white selection:bg-valentine-pink selection:text-valentine-red overflow-x-hidden">
       <MusicPlayer />
       <Hero />
+      <TimeTogether />
       <Gallery />
       <ReasonsList />
       <LoveLetter />
